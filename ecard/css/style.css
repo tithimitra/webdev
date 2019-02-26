@@ -1,0 +1,29 @@
+
+    div{
+        display:inline;
+        }
+    .smaller-image {
+        width: 1000px;
+        border-radius: 10px;
+        background: url("C:\\Users\\tithi\Pictures\\Suomenlinna-Island\\FB\\DSC_0024");
+        background-position:top center;
+        background-repeat:no-repeat 
+    }
+
+.wrap{
+    margin-top:200px;
+    width:100px;
+    margin:initial;
+    
+
+}
+    .card {
+        width: 400px;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Times New Roman';
+        color: lightseagreen;
+    }
+   
+
