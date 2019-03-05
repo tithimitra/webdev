@@ -1,29 +1,68 @@
 
-    div{
-        display:inline;
-        }
-    .smaller-image {
-        width: 1000px;
-        border-radius: 10px;
-        background: url("C:\\Users\\tithi\Pictures\\Suomenlinna-Island\\FB\\DSC_0024");
-        background-position:top center;
-        background-repeat:no-repeat 
+    div  {
+         display: inline;   
     }
 
-.wrap{
+    .blk {
+        display: block;   
+   }
+    
+    .smaller-image {
+        width: 60px;
+        border-radius: 10px;
+        background: url("C:DSC_0024.jpg");
+        background-position:top center;
+        background-repeat:no-repeat;
+      
+    }
+    .center {
+        margin: auto;
+        width: 60%;
+        height: 60%;
+        border: 3px ;
+        padding: 10px;
+        align-content: center;
+       
+        
+      }
+    .wrap{
+    
     margin-top:200px;
     width:100px;
     margin:initial;
     
+    
 
-}
+    }   
     .card {
-        width: 400px;
-        margin-top: 10px;
+        width: 40%;
+        margin: auto;
         text-align: center;
+        
         font-size: 40px;
         font-family: 'Times New Roman';
         color: lightseagreen;
+     
     }
-   
-
+    .textoverlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%, -40%);
+        font-size: 18px;
+      }
+    img {    
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        }
+    h1 {
+        color: aliceblue;
+    }
+    p {
+        color: aliceblue;
+    }
+    p2 {
+        color: aliceblue;
+    }
