@@ -1,0 +1,43 @@
+.from{
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 170px;
+    font-family: sofia;
+    color:white;
+    
+    }
+    .stamp-box{
+       border-style:solid;
+       border-color:black;
+       border-width:2px;
+       width:70px;
+       height:90px;
+       padding-right:30px;
+       margin-left:450px;
+       margin-bottom:40px;
+   
+    }
+   .address{
+        padding-top:20px;
+        padding-bottom:20px;
+        padding-left:500px;
+        padding-right:20px;
+        border:10px;
+        border-color: black;
+        font-size:10px;
+    }
+    .thin-black-border {
+       margin:auto;
+       margin-top:100px;
+       background-image:url("../images/Images.jpg");
+       background-size: 800px 500px;
+       background-repeat: no-repeat;
+       border-color:burlywood;
+       border-width:5px;
+       border-style: solid;
+       width: 800px;
+       height: 500px;
+    }
+    #thumbnail{
+      box-shadow: 0 25px 30px rgba(0,0,0,0.19), 0 9px 8px rgba(0,0,0,0.23);
+    }
