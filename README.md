@@ -1,2 +1,2 @@
 # webdev
-Some basic webd evelopment practice.
+Some basic web development practice.
