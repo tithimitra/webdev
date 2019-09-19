@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title class="title" id ="title"> </title>
+      <link rel="stylesheet" href="css/style.css">
+      <h1>Customer Satisfaction Form</h1>
+   </head> 
+  <body>
+      <script src="..\Form\scripts\scripts.js"></script>
+      <div class="des"id="description">
+      <form class="form" id="survey-form">  
+      <div class="left">
+      <p>Let us know how we can improve this Application:</p>
+      </div>
+      <div class="right">
+      *Name: <input type="text"  placeholder="Enter your name" id="name" name="name" requird>
+      <span class="error" aria-live="polite"></span>
+      <br><br>
+      *Email: <input type="email"placeholder="Enter your Email" id="email" name="email" requird>
+      </div>
+  
+<br><br>
+  <label for="age">*Age:</label>
+  <input type="number"placeholder="Age" id="age_label" name="age" value="1" min="1" max="100"requird>
+</form>
+
+<p>
+  <label> Which option best describes your current role?</label>
+   <select id = "myList">
+    <option hidden>Select an Option</option>
+    <option>Student</option>
+    <option>Full time job</option>
+    <option>Full time learner</option>
+    <option>Prefer not to say</option>
+    <option>other</option>
+   </select>
+</p>
+<p>
+  <div class="left">
+    <label>
+      <p>How likely is that you would recommend<br> this app to a friend?</p></label>
+  </div>
+  <div class="right">
+    <label for="definately"><input id="definately" type="radio" name="definately-maybe-not sure">Definately</label><br>
+    <label for="maybe"><input id="maybe" type="radio" name="definately-maybe-not sure">Maybe</label><br>
+    <label for="not sure"><input id="not sure" type="radio" name="definately-maybe-not sure">Not sure</label>
+  </div>
+  </p>
+  <p>
+    <label>What do you like most in this App:</label>
+     <select id = "myList">
+        <option hidden>Select an Option</option>
+        <option>Display of Menu list</option>
+        <option>Ordering Facility</option>
+        <option>Customer Support</option>
+        <option>Offers and Discounts</option>
+        <option>other</option>
+      </select>
+  </p>
+   <p>
+    <div class="left">
+    <label>
+      <p>Things that should be improved in the future<br>(Check all that apply):</p> </label>
+    </div>
+    <div class="right">
+        <input type="checkbox" name="menu"value="menu"> Display of Menu list<br>
+        <input type="checkbox" name="order" value="Order"> Ordaring Facility<br>
+        <input type="checkbox" name="support" value="support"> Customer Support<br>
+        <input type="checkbox" name="discount" value="discount"> Offers and Discounts<br>
+        <input type="checkbox" name="help" value="help">Help<br>
+      </div>
+      </p>
+<p> Any Comments or Suggestions? </p>     
+<textarea rows="4" cols="50">
+    Enter your comment here....
+    </textarea><br>
+    <button type="submit" onclick="return GEEKFORGEEKS()">Submit</button>
+  </div>
+  </form>
+ </form>
+  </body>
+</div> 
+ </div>
+
+</html>
